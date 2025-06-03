@@ -53,6 +53,54 @@
     </div>
   </section>
 
+<section class="facilities-section">
+  <h2>Our Facilities</h2>
+  <p class="intro">
+    At Mould Craft, our state-of-the-art facility in Coimbatore, Tamil Nadu, is designed to support the complete manufacturing lifecycle — from concept to delivery. We blend advanced equipment, skilled professionals, and smart workflows to deliver precision and performance at every stage.
+  </p>
+
+  <div class="facility-grid">
+    <div class="facility-card">
+      <div class="facility-icon"><i class="fas fa-industry"></i></div>
+      <h3>Foundry Operations</h3>
+      <p>Advanced melting and molding systems for aluminum and non-ferrous alloys — ensuring high strength and precise dimensional control.</p>
+    </div>
+
+    <div class="facility-card">
+      <div class="facility-icon"><i class="fas fa-vial"></i></div>
+      <h3>Spectrum Analysis</h3>
+      <p>On-site spectrometer confirms alloy accuracy by verifying chemical makeup and maintaining material consistency.</p>
+    </div>
+
+    <div class="facility-card">
+      <div class="facility-icon"><i class="fas fa-fire"></i></div>
+      <h3>Heat Treatment</h3>
+      <p>Carefully managed heating cycles enhance hardness, strength, and wear resistance for a wide range of applications.</p>
+    </div>
+
+    <div class="facility-card">
+      <div class="facility-icon"><i class="fas fa-wind"></i></div>
+      <h3>Shot Blasting</h3>
+      <p>High-pressure abrasive blasting cleans surfaces effectively — improving both appearance and coating adhesion.</p>
+    </div>
+
+    <div class="facility-card">
+      <div class="facility-icon"><i class="fas fa-tools"></i></div>
+      <h3>Machine Shop Access</h3>
+      <p>Integrated support from local machining partners allows fast, efficient conversion from raw casting to final product.</p>
+    </div>
+  </div>
+</section>
+
+<section class="aboutus-quality-volume">
+  <div class="quality-overlay">
+    <div class="quality-volume-content">
+      <h3>Quality from Single Piece to Large Volumes</h3>
+      <p>Whether you require a single prototype or large-scale production runs, Mould Craft is equipped to handle your needs with unwavering commitment to quality. Our processes are designed to ensure exceptional results from the initial design phase to the final finished product.</p>
+    </div>
+  </div>
+</section>
+
 <section class="vision-mission-section">
   <div class="grid-container">
     <div class="grid-item">
@@ -65,14 +113,14 @@
     </div>
   </div>
 </section>
-        <style>
-          /* Container grid setup */
+<style>
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr; 
   gap: 20px; 
   padding: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
+  margin-top: 20px;
 }
 
 .grid-item {
@@ -96,16 +144,7 @@
   line-height: 1.8;
   padding: 10px 10px;
 }
-        </style>
-
-<section class="aboutus-quality-volume">
-  <div class="quality-overlay">
-    <div class="quality-volume-content">
-      <h3>Quality from Single Piece to Large Volumes</h3>
-      <p>Whether you require a single prototype or large-scale production runs, Mould Craft is equipped to handle your needs with unwavering commitment to quality. Our processes are designed to ensure exceptional results from the initial design phase to the final finished product.</p>
-    </div>
-  </div>
-</section>
+</style>
 
 <section class="cta-banner-split">
   <div class="cta-text">
@@ -395,7 +434,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     align-items: center;
-    margin-left: 0px;
+    margin-left: 10px;
     background-color: #ffffff;
 }
 
@@ -431,8 +470,8 @@
 .expertise-image {
     position: relative;
     display: inline-block;
-    max-width: 90%;
-    margin-left: 30px;
+    max-width: 80%;
+    margin-left: 50px;
     margin-top: 80px;
     margin-bottom: 50px;
 }
@@ -444,7 +483,7 @@
     left: 12px; /* Horizontal offset */
     width: 100%;
     height: 100%;
-    background-color: #ffd700; /* Deep blue shadow frame */
+    background-color: #ffe96e; /* Deep blue shadow frame */
     border-radius: 8px;
     z-index: 0;
 }
@@ -452,8 +491,8 @@
 .expertise-image img {
     position: relative;
     z-index: 1;
-    width: 100%;
-    height: 400px;
+    width: 90%;
+    height: 350px;
     object-fit: cover;
     border-radius: 8px;
     display: block;
@@ -463,6 +502,83 @@
 
 .expertise-image img:hover {
     transform: scale(1.02);
+}
+
+.facilities-section {
+  padding: 40px 20px;
+  background-color: #e3edf8;
+  color: #091f4e;
+}
+
+.facilities-section h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #091f4e;
+}
+
+.facilities-section .intro {
+  max-width: 1000px;
+  margin: 0 auto 20px;
+  text-align: center;
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.facility-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.facility-card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  flex: 1 1 220px;
+  max-width: 360px;
+  margin-bottom: 25px;
+}
+
+.facility-card h3 {
+  color: #001f54;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.facility-card p {
+  color: #555;
+  line-height: 1.5;
+  font-size: 0.96rem;
+  text-align: left;
+}
+
+.facility-icon {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+  background-color: #f7dc45; 
+  color: #091f4e;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.facility-card:hover .facility-icon {
+  transform: scale(1.1);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
 }
 
 .aboutus-quality-volume {
@@ -502,7 +618,7 @@
 .quality-volume-content p {
   font-size: 1.2rem;
   line-height: 1.6;
-  color: #000000; /* make sure paragraph text is visible too */
+  color: #000000; 
 }
 
 .cta-banner-split {
@@ -516,6 +632,7 @@
     max-width: 1400px;
     flex-wrap: wrap; 
     margin-bottom: 20PX;
+    margin-top: 0px;
 }
 
 .cta-text {
